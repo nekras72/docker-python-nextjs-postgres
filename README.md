@@ -1,19 +1,23 @@
 # Docker-Ready Application with Python Flask Backend and Next.js Frontend
 This repository contains a fully Dockerized web application featuring a Python-based backend using Flask and a modern frontend built with Next.js. The setup ensures a seamless development and deployment experience, leveraging the power of Docker for containerization.
-Table of Contents
- - Project Structure
- - Features
- - Prerequisites
- - Getting Started
- - Installation
- - Running the Application
- - Docker Setup
- - Environment Variables
- - Database
- - Contributing
- - License
 
-# Project Structure
+## Table of Contents
+- [Project Structure](#project-structure)
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Getting Started](#getting-started)
+  - [Installation](#installation)
+  - [Running the Application](#running-the-application)
+- [Docker Setup](#docker-setup)
+- [Environment Variables](#environment-variables)
+- [Database](#database)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Project Structure
+
+<div class="code-block">
+  <pre><code class="language-plaintext">
 .
 ├── backend
 │   ├── flask.dockerfile
@@ -25,6 +29,9 @@ Table of Contents
 │   └── ...
 ├── docker-compose.yml
 └── README.md
+  </code></pre>
+  <button class="copy-button" onclick="copyToClipboard(this)">Copy</button>
+</div>
 
 # Features
 Next.js Frontend: A modern React framework for building fast and user-friendly web applications.
