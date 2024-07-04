@@ -63,45 +63,6 @@ Start the application using Docker Compose:
   <button class="copy-button" onclick="copyToClipboard(this)">Copy</button>
 </div>
 
-<script>
-function copyToClipboard(button) {
-  const code = button.previousElementSibling.innerText;
-  navigator.clipboard.writeText(code).then(() => {
-    button.innerText = 'Copied!';
-    setTimeout(() => {
-      button.innerText = 'Copy';
-    }, 2000);
-  });
-}
-</script>
-
-<style>
-.code-block {
-  position: relative;
-  padding: 1em;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  background-color: #f9f9f9;
-  margin-bottom: 1em;
-}
-
-.copy-button {
-  position: absolute;
-  top: 0.5em;
-  right: 0.5em;
-  padding: 0.5em;
-  border: none;
-  border-radius: 4px;
-  background-color: #007bff;
-  color: white;
-  cursor: pointer;
-}
-
-.copy-button:hover {
-  background-color: #0056b3;
-}
-</style>
-
 This will build and start all the services defined in the docker-compose.yml file.
 
 # Environment Variables
