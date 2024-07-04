@@ -52,7 +52,6 @@ Clone the repository:
 <div class="code-block">
   <pre><code class="language-sh">git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name</code></pre>
-  <button class="copy-button" onclick="copyToClipboard(this)">Copy</button>
 </div>
 
 ## Running the Application
@@ -60,7 +59,6 @@ Start the application using Docker Compose:
 
 <div class="code-block">
   <pre><code class="language-sh">docker-compose up --build</code></pre>
-  <button class="copy-button" onclick="copyToClipboard(this)">Copy</button>
 </div>
 
 This will build and start all the services defined in the docker-compose.yml file.
